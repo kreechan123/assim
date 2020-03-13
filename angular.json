@@ -24,9 +24,12 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/less/test/css/3rd-party/bootstrap4.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/less/lib/less-browser/bootstrap.js"]
           },
           "configurations": {
             "production": {
